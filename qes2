@@ -1,0 +1,17 @@
+print("thanku for choosing python pizza delivery!")
+size = input()
+add_pepperoni = input()
+extra_cheese = input()
+
+bill = 0
+if size == "s":
+bill += 15
+elif size =="M":
+bill += 20
+else:
+bill += 25
+
+if add_pepperoni == "Y":
+    bill += 1
+
+    printf(f"your final bill is : ${bill}.")

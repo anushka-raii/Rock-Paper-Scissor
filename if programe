@@ -1,0 +1,7 @@
+# python program to illustrate If statement 
+  
+i = 5
+  
+if (i > 10): 
+    print("10 is less than 15") 
+print("I am Not in if") 
